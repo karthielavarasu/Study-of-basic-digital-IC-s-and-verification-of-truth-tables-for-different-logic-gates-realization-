@@ -1,11 +1,8 @@
-...
-name : elavarasu.r
+## Name: R.Elavarasu
+## Register number:23013515
 
-register number : 23013515
-...
-
-# Experiment number: study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
- # AIM:
+## Experiment number: study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
+## AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
 Equipments Required:
@@ -57,15 +54,13 @@ The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will gi
 
 Y= A⊕B
 
-# Procedure
-```
+## Procedure:
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
-```
-program:
+## program:
 ```
 module logicgates(a,b,y1,y2,y3,y4,y5,y6,y7);
 input a,b;
@@ -79,15 +74,15 @@ nor(y6,a,b);
 xnor(y7,a,b);
 endmodule
 ```
-# RTL realization
+## RTL realization
 ![image](https://github.com/karthielavarasu/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145980473/4e32e2a6-c5c1-4ed0-a61c-74e4f47ec8c7)
 
 
-# Truth Table :
+## Truth Table :
 ![image](https://github.com/karthielavarasu/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145980473/64489953-e0ac-483d-9e25-cbafd83871e2)
 
-# Timing Diagram:
+## Timing Diagram:
 ![image](https://github.com/karthielavarasu/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/145980473/337ef080-c199-41ef-a00c-efa91daa3e2e)
 
-# Result:
+## Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
